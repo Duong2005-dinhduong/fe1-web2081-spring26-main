@@ -21,4 +21,7 @@ export const routes: Routes = [
     path: 'products',
     component: Products,
   },
+  {
+    path: 'about', component: About
+  },
 ];
