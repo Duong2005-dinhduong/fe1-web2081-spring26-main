@@ -7,11 +7,10 @@ import { Component } from "@angular/core";
 })
 export class About {
 
-  name = 'pham duc';
-  age: number = 22;
+  name = 'dinh duong ';
+  age: number = 21;
 
   say2(){
     alert('2 ' + this.name);
   }
-
 }
