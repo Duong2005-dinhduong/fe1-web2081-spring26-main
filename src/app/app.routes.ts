@@ -3,6 +3,7 @@ import { Home } from './home/home';
 import { Contact } from './pages/contact/contact';
 import { Products } from './pages/products/products';
 import { About } from './pages/about/about';
+import { Story } from './pages/story/story';
 
 export const routes: Routes = [
   {
@@ -24,4 +25,5 @@ export const routes: Routes = [
   {
     path: 'about', component: About
   },
+  { path: 'story', component: Story },
 ];

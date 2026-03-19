@@ -1,0 +1,17 @@
+<h2>Danh sách truyện tranh</h2>
+
+@for (story of story; track story.title) {
+
+<div class="story-card">
+  <h3>{{ story.title }}</h3>
+
+  <p>Tác giả: {{ story.author }}</p>
+
+  <p>Lượt xem: {{ story.views }}</p>
+
+  @if (story.views > 80000) {
+  <p>🔥 Truyện nổi bật</p>
+  }
+</div>
+
+}
