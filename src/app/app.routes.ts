@@ -4,6 +4,7 @@ import { Contact } from './pages/contact/contact';
 import { Products } from './pages/products/products';
 import { About } from './pages/about/about';
 import { Story } from './pages/story/story';
+import { AddStory } from './pages/add-story/add-story';
 
 export const routes: Routes = [
   {
@@ -26,4 +27,7 @@ export const routes: Routes = [
     path: 'about', component: About
   },
   { path: 'story', component: Story },
+  {
+    path: `add-story`, component: AddStory 
+  },
 ];
